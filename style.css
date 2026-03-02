@@ -1,0 +1,73 @@
+/*fonts*/
+@font-face {
+    font-family: 'DOS';
+    src: url("src/DOS.ttf") format('truetype')
+}
+
+/*background*/
+body {
+    background-image: url("src/fade.png");
+    image-rendering: pixelated;
+    background-repeat: repeat-x;
+    background-color: #000000;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-shadow: 0px 0.5px 2px #000000;
+    color: #e4e4e4;
+}
+
+/*main site containter*/
+.content {
+    background-color: #1d1d1dea;
+    padding: 16px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 16px 8px #000000;
+    position: relative;
+    top: 16px;
+}
+
+/*title*/
+h1 {
+    font-family: 'DOS', Arial, sans-serif;
+    color: hsl(329, 100%, 93%);
+    text-shadow: 0px 0px 2px #f172bc, 0px 0px 4px #ff0095, 0px 0px 8px #ff0095;
+    text-align: center;
+}
+
+/*footer placeholder*/
+#smol {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/*8831 images*/
+#eightyeight {
+    padding: 16px;
+    border-spacing: 4px;                
+}
+a {
+    color: #fabedf;
+    text-shadow: 0px 0px 2px #eb1190, 0px 0px 4px #ff46b2;
+    font-style: bold;
+    text-decoration: none;
+}
+
+/*hover pseudoclass*/
+a:hover {
+    color: #fabedf;
+    text-shadow: 0px 0px 4px #ff96d3, 0px 0px 8px #ff0095;
+    text-decoration: underline;
+}
+
+/*images*/
+img {
+    image-rendering: pixelated;
+}
+
+/*relative scaling for mobile*/
+@media screen and (width < 1024px) {
+    .content {
+        width: 100%;
+        background-color: #1d1d1d;
+    }
+}
