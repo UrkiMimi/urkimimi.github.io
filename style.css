@@ -2,7 +2,8 @@
 @font-face {
     font-family: 'DOS';
     src: url("src/DOS.ttf") format('truetype')
-}
+} 
+
 
 /*background*/
 body {
@@ -10,20 +11,24 @@ body {
     image-rendering: pixelated;
     background-repeat: repeat-x;
     background-color: #000000;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     text-shadow: 0px 0.5px 2px #000000;
     color: #e4e4e4;
 }
 
 /*main site containter*/
 .content {
-    background-color: #1d1d1dea;
-    padding: 16px;
+    background-image: url("src/thewebpinstripe.png");
+    padding: 20px;
     width: 600px;
     margin: auto;
     box-shadow: 0px 0px 16px 8px #000000;
     position: relative;
     top: 16px;
+
+    /*border*/
+    border-top: 2px solid #000000;
+    border-image: linear-gradient(90deg,rgba(255, 0, 179, 0) 0%, rgba(255, 0, 179, 1) 50%, rgba(255, 0, 179, 0) 100%) 1;
 }
 
 /*title*/
@@ -48,7 +53,7 @@ h1 {
 a {
     color: #fabedf;
     text-shadow: 0px 0px 2px #eb1190, 0px 0px 4px #ff46b2;
-    font-style: bold;
+    font-weight: 200;
     text-decoration: none;
 }
 
