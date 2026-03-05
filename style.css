@@ -39,6 +39,14 @@ h1 {
     text-align: center;
 }
 
+/*header*/
+h2 {
+    font-weight: 150;
+    font-variant-caps:all-small-caps;
+    font-size: 36px;
+    text-shadow: 0px 0px 2px #eb1190, 0px 0px 4px #ff46b2;
+}
+
 /*footer placeholder*/
 #smol {
     font-size: 12px;
@@ -72,6 +80,46 @@ a:hover {
 img {
     image-rendering: pixelated;
 }
+
+/*site navigation*/
+#navigation {
+    /*flex setup*/
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    /*border again*/
+    border-bottom: 2px solid #000000;
+    border-image: linear-gradient(90deg,rgba(255, 0, 179, 0) 0%, rgba(255, 0, 179, 1) 50%, rgba(255, 0, 179, 0) 100%) 1;
+}
+
+/*portfolio junk*/
+/*photo collage*/
+.collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 8px;
+    width: fit-content;
+}
+
+.collage img {
+    width: 200;
+    height: 150;
+    object-fit: cover;
+    display: block;
+    image-rendering: optimizeQuality
+}
+
+/*sub content div*/
+.subContent {
+    padding: 8px;
+    padding-top: 0px;
+}
+
 
 /*relative scaling for mobile*/
 @media screen and (width < 600px) {
