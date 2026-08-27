@@ -1,7 +1,7 @@
 /*fonts*/
 @font-face {
     font-family: 'DOS';
-    src: url("src/DOS.ttf") format('truetype')
+    src: url("src/DOS.ttf") format('truetype')  
 } 
 
 
@@ -14,6 +14,7 @@ body {
     font-family: "Roboto", Arial, sans-serif;
     text-shadow: 0px 0.5px 2px #000000;
     color: #e4e4e4;
+    font-size: 15px;
 }
 
 /*main site containter*/
@@ -120,6 +121,22 @@ img {
 .subContent {
     padding: 8px;
     padding-top: 0px;
+}
+
+
+/*console*/
+.console {
+    background-color: #00000069;
+    padding: 4px;
+    border: 1px solid #f8a4d254;
+    box-shadow: 4px 4px 1px #000000;
+}
+
+code {
+    color: #ff578f;
+    font-family: 'IBM Plex Mono', 'monospace';
+    font-size: 9px;
+    text-shadow: 0px 0px 2px #f8013f, 0px 0px 2px #f8013f;
 }
 
 
