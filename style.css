@@ -22,7 +22,7 @@ body {
     background-image: url("src/thewebpinstripe.png");
     image-rendering: pixelated;
     padding: 20px;
-    width: 600px;
+    width: 700px;
     margin: auto;
     box-shadow: 0px 0px 16px 8px #000000;
     position: relative;
@@ -152,7 +152,7 @@ img {
 code {
     color: #ff578f;
     font-family: 'IBM Plex Mono', 'monospace';
-    font-size: 9px;
+    font-size: 10px;
     text-shadow: 0px 0px 2px #f8013f, 0px 0px 2px #f8013f;
 }
 
