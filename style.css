@@ -156,6 +156,38 @@ code {
     text-shadow: 0px 0px 2px #f8013f, 0px 0px 2px #f8013f;
 }
 
+/*blog link article stuff*/
+.bloglink {
+    border: 1px solid #ffffff27;
+    padding: 16px;
+    background-color: #00000030;
+    
+}
+
+.bloglink p {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 10px;
+
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.bloglink h3 {
+    font-size: 20px;
+    margin: 0%;
+
+.bloglink a {
+    font-weight: 400;
+    color: #ffd0f2;
+    text-shadow: 0px 0px 4px #e91e98, 0px 0px 4px #ef17a3;
+}
+
+/*articles (what the fuck am i doing)*/
+.article date  {
+
+}
 
 /*relative scaling for mobile*/
 @media screen and (width < 750px) {
